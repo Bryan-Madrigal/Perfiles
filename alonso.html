@@ -2,83 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Perfil de Luis Alonso Cortes Hilerio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfiles</title>
     <style>
-        h1 {
-            color: red;
-            text-align: center;
+        body {
+            background-color: rgb(43, 255, 0); 
         }
-        p {
-            color: blue;
-            text-align: center;
-            font-size: 18px;
-        }
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-        .container {
-            text-align: center;
-        }
-        a {
-            text-align: center;
-            display: block;
-            margin-top: 10px;
-            color: white;
-            background-color: gray;
-            padding: 10px;
-            text-decoration: none;
-            width: 150px;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 5px;
-        }
-        a:hover {
-            background-color: darkgray;
-        }
-        .hidden {
-            display: none;
-        }
+        h1 { color: black; }
+        p { color: black; }
+        img { display: block; margin: 20px auto; }
+        video { display: block; margin: 20px auto; }
     </style>
-    <script>
-        function mostrarPerfil() {
-            document.getElementById("perfil").classList.remove("hidden");
-            document.getElementById("main").classList.add("hidden");
-        }
-
-        function regresarMenu() {
-            document.getElementById("perfil").classList.add("hidden");
-            document.getElementById("main").classList.remove("hidden");
-        }
-    </script>
 </head>
 <body>
+    <h1>luis alonso cortes hilerio</h1>
+    <p>HOLA BIENVENIDO A MICUENTA DE MI PRIMERA PAGINA WEB, ME GUSTA ESCUCHAR el volleball y decir babosadas</p>
 
-    <!-- Sección principal -->
-    <div id="main" class="container">
-        <h1>Luis Alonso Cortes Hilerio</h1>
-        <p>Universidad Autónoma de Chiapas</p>
-        <img src="LACH.jpeg" alt="Foto de Luis Alonso Cortes Hilerio">
-        <a href="javascript:void(0)" onclick="mostrarPerfil()">Leer más</a>
-    </div>
+   
+    <img src="imagenes/LACH.jpeg" alt="mi foto" width="200">
 
-    <!-- Sección con información adicional (oculta por defecto) -->
-    <div id="perfil" class="container hidden">
-        <h1>Perfil de Luis Alonso Cortes Hilerio</h1>
-        <p><strong>Universidad:</strong> Universidad Autónoma de Chiapas</p>
-        <p><strong>Correo:</strong> luis.cortes07@unach.mx</p>
-        <p><strong>Número de teléfono:</strong> +52 961-114-5735</p>
-        <p><strong>Redes sociales:</strong></p>
-        <p>
-            <a href="https://www.facebook.com/profile.php?id=100014820823864&mibextid=LQQJ4d" target="_blank">Facebook</a><br>
-            <a href="https://www.instagram.com/horny.luisx.xx?igsh=MXUwbHU0cDhzYngyag%3D%3D&utm_source=qr" target="_blank">Instagram</a>
-        </p>
-        <a href="javascript:void(0)" onclick="regresarMenu()">Regresar al menú</a>
-    </div>
-
+    <a href="index.html">Regresar al menú</a>
 </body>
 </html>
